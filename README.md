@@ -12,10 +12,9 @@
 
 #### This project was developed with the following technologies:
 
-<h4> • TypeScript </h4>
-<h4> • Styled Components </h4>
-<h4> • react-icons </h4>
-<h4> • VS Code with EditorConfig/ESLint </h4>
+- TypeScript
+- Styled Components
+- VS Code with EditorConfig/ESLint
 
 <br/>
 
