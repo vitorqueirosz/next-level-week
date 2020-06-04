@@ -3,7 +3,7 @@
  
  ## 📍 Índice
  
- - [What's Next Level Week?](#-whats-next-level-week)
+ - [What's Next Level Week?](#-what's-next-level-week)
  - [Project](#-project)
  - [Technologies](#-technologies)
  - [Tools](#-tools)
@@ -11,7 +11,7 @@
 ## ℹ️What's Next Level Week?
  __NLW__ is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.  An online and completely free event that will help you take the next step in your evolution as a dev.
 
-## :computer:Project
+## :computer: Project
 __Ecoleta__ is a project developed based on the International Environment Week. The goal is to connect people to companies that collect specific waste, such as light bulbs, batteries, etc.
 </br>
 </br>
@@ -31,7 +31,7 @@ __Ecoleta__ is a project developed based on the International Environment Week. 
 - [React-Leaflet](https://github.com/PaulLeCam/react-leaflet)
 - [Expo](https://github.com/expo/expo)
 
-## :hammer:Tools
+## :hammer: Tools
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Insomnia](https://insomnia.rest)
 - Dispositivo movel
