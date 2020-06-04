@@ -1,6 +1,11 @@
 <p align="center"><img src="https://lander.rocketseat.dev/uploads/nextlevelweek_18baaf82af.svg"/></p>
- <h4 align="center">🚧 NextLevelWeek 1.0 🚀 In progress.. 🚧</h4>
+ <h4 align="center">🚧 NextLevelWeek 1.0 🚀 🚧</h4>
  
+ 📍 Índice
+ 
+ - [What's Next Level Week?](-#-whats-next-level-week)
+ - [Project](-#project)
+ - [Technologies](-#technologies)
 
 ## ℹ️ What's Next Level Week?
 NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.  An online and completely free event that will help you take the next step in your evolution as a dev.
@@ -25,8 +30,10 @@ __Ecoleta__ is a project developed based on the International Environment Week. 
 - [React-Leaflet](https://github.com/PaulLeCam/react-leaflet)
 - [Expo](https://github.com/expo/expo)
 
-<br/>
-
+## :hammer: Ferramentas
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Insomnia](https://insomnia.rest)
+- Dispositivo movel
 
 ###### Developed on Next Level Week from [RocketSeat](https://rocketseat.com.br) :rocket:.
 
