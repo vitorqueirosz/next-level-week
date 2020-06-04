@@ -1,16 +1,17 @@
 <p align="center"><img src="https://lander.rocketseat.dev/uploads/nextlevelweek_18baaf82af.svg"/></p>
  <h4 align="center">🚧 NextLevelWeek 1.0 🚀 🚧</h4>
  
- 📍 Índice
+ ## 📍 Índice
  
- - [What's Next Level Week?](-#-whats-next-level-week)
- - [Project](-#project)
- - [Technologies](-#technologies)
+ - [What's Next Level Week?](#-whats-next-level-week)
+ - [Project](#-project)
+ - [Technologies](#-technologies)
+ - [Tools](#-tools)
 
-## ℹ️ What's Next Level Week?
-NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.  An online and completely free event that will help you take the next step in your evolution as a dev.
+## ℹ️What's Next Level Week?
+ __NLW__ is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.  An online and completely free event that will help you take the next step in your evolution as a dev.
 
-## :computer: Project
+## :computer:Project
 __Ecoleta__ is a project developed based on the International Environment Week. The goal is to connect people to companies that collect specific waste, such as light bulbs, batteries, etc.
 </br>
 </br>
@@ -30,11 +31,13 @@ __Ecoleta__ is a project developed based on the International Environment Week. 
 - [React-Leaflet](https://github.com/PaulLeCam/react-leaflet)
 - [Expo](https://github.com/expo/expo)
 
-## :hammer: Ferramentas
+## :hammer:Tools
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Insomnia](https://insomnia.rest)
 - Dispositivo movel
+</br>
 
 ###### Developed on Next Level Week from [RocketSeat](https://rocketseat.com.br) :rocket:.
+
 
 With ♥ by [Vitor Queiroz](https://www.linkedin.com/in/vitor-queiroz-4b32131a3/)!
