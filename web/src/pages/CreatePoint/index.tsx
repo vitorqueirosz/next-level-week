@@ -1,6 +1,6 @@
 import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 import { Link, useHistory }  from 'react-router-dom';
-import { FiArrowLeft } from 'react-icons/fi';
+import { FiArrowLeft, FiCheckCircle } from 'react-icons/fi';
 
 import { Map, TileLayer, Marker} from 'react-leaflet';
 import api from '../../services/api';
@@ -35,6 +35,9 @@ const CreatePoints = () => {
 
     const [selectedUf, setSelectedUf] = useState('0');
     const [selectedCity, setSelectedCity] = useState('0');
+
+    const [check, setCheck] = useState(false);
+
 
     const [formData, setFormData] = useState({
         name: '',
@@ -121,15 +124,16 @@ const CreatePoints = () => {
 
     }
 
-   async function handleSubmit(event: FormEvent) {
+    
+    async function handleSubmit(event: FormEvent) {
         event.preventDefault();
-
+        
         const { name, email, whatsapp } = formData;
         const uf = selectedUf;
         const city = selectedCity;
         const [latitude, longitude] = selectedPosition;
         const items = selectedItem;
-
+        
         const data  = {
             name,
             email,
@@ -141,13 +145,26 @@ const CreatePoints = () => {
             items
         };
         await api.post('points', data);
-
-        alert('It work!');
-
-        history.push('/');
+        
+        
+       
     };
 
+    
+        function handleCheck() {
+            setCheck(true);
+
+            setTimeout(() => {
+                history.push('/');
+            }, 1400)
+        }
+
     return (
+        <>
+        {check === true ? <div className="sucess">
+                    <FiCheckCircle color="#34CB79" size={35} className="svg"/>
+                    <h1>Cadastro Concluido!</h1>
+                </div> : false}
         <div id="page-create-point">
             <header>
                 <img src={logo} alt=""/>
@@ -207,7 +224,7 @@ const CreatePoints = () => {
                     </legend>
 
 
-                    <Map center={initialPosition} zoom={15} onClick={handleMapClick}>
+                    <Map className="map" center={initialPosition} zoom={15} onClick={handleMapClick}>
                         <TileLayer
                             attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -275,10 +292,14 @@ const CreatePoints = () => {
                                      
                     </ul>     
                 </fieldset> 
+                
 
-                <button type="submit">Cadastrar ponto de coleta</button>
+                <button onClick={handleCheck} type="submit">Cadastrar ponto de coleta</button>
             </form>
+
         </div>
+
+         </>
     )
 };
 

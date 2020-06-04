@@ -1,7 +1,7 @@
 #page-create-point {
     width: 100%;
     max-width: 1100px;
-  
+    /* position: relative; */
     margin: 0 auto;
   }
   
@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* position: relative; */
   }
   
   #page-create-point header a {
@@ -33,7 +34,7 @@
     max-width: 730px;
     background: #FFF;
     border-radius: 8px;
-  
+    /* position: relative; */
     display: flex;
     flex-direction: column;
   }
@@ -46,6 +47,7 @@
     margin-top: 64px;
     min-inline-size: auto;
     border: 0;
+    /* position: relative; */
   }
   
   #page-create-point form legend {
@@ -143,6 +145,8 @@
     height: 350px;
     border-radius: 8px;
     margin-bottom: 24px;
+    /* position: relative; */
+    
   }
   
   #page-create-point form button {
@@ -201,3 +205,26 @@
     background: #E1FAEC;
     border: 2px solid #34CB79;
   }
+
+  .sucess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    z-index: 5000;
+}
+.sucess h1 {
+  display: block;
+  color: #fff;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sucess svg {
+  display: block;
+  margin-bottom: 10px;
+}
