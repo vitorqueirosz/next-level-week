@@ -30,6 +30,8 @@ __Ecoleta__ is a project developed based on the International Environment Week. 
 - [React Native](https://github.com/facebook/react-native)
 - [React-Leaflet](https://github.com/PaulLeCam/react-leaflet)
 - [Expo](https://github.com/expo/expo)
+- [Multer](https://github.com/expressjs/multer)
+- [Joi](https://github.com/hapijs/joi)
 
 ## :hammer: Tools
 - [Visual Studio Code](https://code.visualstudio.com)
